@@ -15,7 +15,7 @@ export default DCircles;
 
 const style = {
     circles_Cont: {
-        border: ".2rem solid black",
+        // border: ".2rem solid black",
         width: "21rem",
         height: "7rem",
         marginTop: "5px",
