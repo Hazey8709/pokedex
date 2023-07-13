@@ -14,15 +14,13 @@ function OpenDexBtn(props) {
 export default OpenDexBtn;
 
 const style = {
-    coverBtn_Cont: {},
-
     cover_Btn: {
         display: "flex",
-        border: ".3rem inset black",
+        border: ".5rem inset darkRed",
         borderRadius: ".4rem",
         backgroundColor: "black",
         margin: "0 auto",
-        marginTop: "20rem",
+        marginTop: "3rem",
         // width: "10rem",
         // height: "3rem",
         padding: "10px",

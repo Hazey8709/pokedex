@@ -1,12 +1,13 @@
 //!   withOut Cover
-
 import React from "react";
-//import { Link } from "react-router-dom";
+import BTNPad from "../components/buttons/BTN_Pad";
+import SearchBar from "../components/searchBar/SearchBar";
 
 function Uncovered() {
     return (
         <div style={style.uncovered_cont}>
-            <h1>uncovered</h1>
+            <SearchBar />
+            <BTNPad />
         </div>
     );
 }
@@ -15,10 +16,10 @@ export default Uncovered;
 
 const style = {
     uncovered_cont: {
-        borderTop: ".2rem solid darkRed",
+        borderTop: ".3rem inset darkRed",
         borderRadius: ".8rem",
-        backgroundColor: "red",
-        height: "27.9rem",
+        backgroundColor: "darkRed",
+        height: "27.5rem",
         marginTop: "1.4rem",
     },
 };
