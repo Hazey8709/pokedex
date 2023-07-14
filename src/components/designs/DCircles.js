@@ -6,7 +6,6 @@ function DCircles() {
             <div style={style.circle_1}></div>
             <div style={style.circle_2}></div>
             <div style={style.circle_3}></div>
-            {/* <OpenDexBtn style={style.btnText} /> */}
         </section>
     );
 }
@@ -26,7 +25,7 @@ const style = {
         position: "absolute",
         border: ".2rem solid black",
         borderRadius: "70px",
-        backgroundColor: "darkRed",
+        backgroundColor: "#6c0106",
         width: "75px",
         height: "75px",
         marginTop: ".8rem",
@@ -38,7 +37,7 @@ const style = {
         position: "absolute",
         border: ".2rem solid black",
         borderRadius: "70px",
-        backgroundColor: "darkRed",
+        backgroundColor: "#6c0106",
         width: "50px",
         height: "50px",
         marginTop: "1.6rem",
@@ -49,7 +48,7 @@ const style = {
     circle_3: {
         border: ".2rem solid black",
         borderRadius: "70px",
-        backgroundColor: "darkRed",
+        backgroundColor: "#6c0106",
         width: "100px",
         height: "100px",
         boxShadow: " 5px 1px 10px 1px darkRed",

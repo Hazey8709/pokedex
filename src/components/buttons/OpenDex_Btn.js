@@ -20,7 +20,7 @@ const style = {
         borderRadius: ".4rem",
         backgroundColor: "black",
         margin: "0 auto",
-        marginTop: "3rem",
+        // marginTop: "3rem",
         // width: "10rem",
         // height: "3rem",
         padding: "10px",
