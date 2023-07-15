@@ -1,12 +1,12 @@
 //!   withOut Cover
 import React from "react";
 import BTNPad from "../components/buttons/BTN_Pad";
-import SearchBar from "../components/searchBar/SearchBar";
+// import SearchBar from "../components/searchBar/SearchBar";
 
 function Uncovered() {
     return (
         <div style={style.uncovered_cont}>
-            <SearchBar />
+            {/* <SearchBar /> */}
             <BTNPad />
         </div>
     );

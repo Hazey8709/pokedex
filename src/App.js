@@ -5,19 +5,17 @@ import Uncovered from "./pages/Uncovered";
 
 function App() {
     return (
-        <div>
-            <main>
-                <section style={style.pokeDex_Cont}>
-                    <section style={style.screen_Cont}></section>
-                    <Routes>
-                        <Route path='/' element={<Covered />} />
-                        <Route path='/Uncovered' element={<Uncovered />} />
-                    </Routes>
+        <main>
+            <section style={style.pokeDex_Cont}>
+                <section style={style.screen_Cont}></section>
+                <Routes>
+                    <Route path='/' element={<Covered />} />
+                    <Route path='/Uncovered' element={<Uncovered />} />
+                </Routes>
 
-                    <div style={style.pokeDex_ContEffect}></div>
-                </section>
-            </main>
-        </div>
+                <div style={style.pokeDex_ContEffect}></div>
+            </section>
+        </main>
     );
 }
 

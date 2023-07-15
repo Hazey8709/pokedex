@@ -1,3 +1,13 @@
+# Production Notes
+
+Will get pokemon by name & ID.
+On/Off, with  On Graphic (Shows image when turned on)(Pixel Image??)
+Button, Numbers Button,
+letters Button, Space Button, Enter Button,
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
