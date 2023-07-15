@@ -7,7 +7,10 @@ function App() {
     return (
         <main>
             <section style={style.pokeDex_Cont}>
-                <section style={style.screen_Cont}></section>
+                <section style={style.screen_Cont}>
+                    <div style={style.returnData_Cont}>Return Pokemon Data</div>
+                    <div style={style.padData_Cont}>Text</div>
+                </section>
                 <Routes>
                     <Route path='/' element={<Covered />} />
                     <Route path='/Uncovered' element={<Uncovered />} />
@@ -33,7 +36,7 @@ const style = {
         boxShadow: "5px 8px 50px #000500",
     },
 
-    //!  Cont 3D Effect
+    //!  Container  3D Effect
     pokeDex_ContEffect: {
         position: "absolute",
         border: ".2rem solid black",
@@ -48,6 +51,7 @@ const style = {
         zIndex: "-1",
     },
 
+    //!   Screen
     screen_Cont: {
         border: ".4rem inset darkRed",
         borderRadius: "1rem",
@@ -56,5 +60,27 @@ const style = {
         height: "15rem",
         margin: "0 auto",
         marginTop: ".3rem",
+    },
+
+    returnData_Cont: {
+        border: ".1rem solid white",
+        borderRadius: ".2rem",
+        width: "28.5rem",
+        height: "10rem",
+        margin: "0 auto",
+        marginTop: ".2rem",
+
+        color: "white",
+    },
+
+    padData_Cont: {
+        border: ".1rem solid white",
+        borderRadius: ".2rem",
+        width: "28.5rem",
+        height: "4.1rem",
+        margin: "0 auto",
+        marginTop: ".1rem",
+
+        color: "white",
     },
 };
