@@ -2,6 +2,7 @@ import React from "react";
 import OnOff from "../buttons/OnOff";
 import Numbers from "../buttons/Numbers";
 import Letters from "../buttons/Letters";
+import KeyButtons from "../buttons/KeyButtons";
 
 function BTNPad() {
     return (
@@ -9,12 +10,7 @@ function BTNPad() {
             <OnOff />
             <Numbers />
             <Letters />
-
-            <section style={style.submit}>
-                <button>Delete</button>
-                <button>Space</button>
-                <button>Enter</button>
-            </section>
+            <KeyButtons />
         </section>
     );
 }

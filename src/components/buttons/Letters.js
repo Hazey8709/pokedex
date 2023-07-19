@@ -41,15 +41,15 @@ export default Letters;
 const style = {
     letters_Cont: {
         display: "flex",
+        // border: ".1rem solid white",
         flexWrap: "wrap",
         columnGap: ".1rem",
         rowGap: ".5rem",
-        border: ".1rem solid white",
         width: "27.2rem",
         margin: "0 auto",
         marginTop: "2rem",
-        padding: ".3rem",
-        // marginLeft: ".6rem",
+        padding: ".2rem",
+
     },
 
     btn: {
@@ -57,7 +57,6 @@ const style = {
         borderRadius: ".2rem",
         width: "2rem",
         height: "2rem",
-        // margin: "0 auto",
 
         backgroundColor: "yellow",
         fontWeight: "bold",

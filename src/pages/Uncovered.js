@@ -6,7 +6,6 @@ import BTNPad from "../components/pad/BTN_Pad";
 function Uncovered() {
     return (
         <div style={style.uncovered_cont}>
-            {/* <SearchBar /> */}
             <BTNPad />
         </div>
     );
